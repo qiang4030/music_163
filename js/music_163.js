@@ -72,12 +72,12 @@ for (var i = 0; i < points.length; i++) {
 	})
 }
 
-var dsq = setInterval(Next, 2000);
+var dsq = setInterval(Next, 4000);
 
 var ban_img = document.getElementsByClassName('ban-img')[0];
 ban_img.onmouseover = function() {
 	clearInterval(dsq);
 }
 ban_img.onmouseout = function() {
-	dsq = setInterval(Next, 2000);
+	dsq = setInterval(Next, 4000);
 }
